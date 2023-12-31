@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificação de Permissão de Localização</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+<p id="demo"></p>
+<header>
+  <img src="./assets/img/logo.png" alt="Roots Grill" height="100">
+</header>
+
+<div class="container-termo"> 
+  <div id="termo">
+    <strong>
+      Autorização de Localização por Medidas de Segurança:
+     </strong> <br />
+     <p id="termo-content">
+      Solicitamos sua autorização para acessar a localização.
+       A autorização de localização é estritamente usada para aprimorar a 
+       qualidade dos serviços oferecidos, garantindo sua segurança e privacidade.
+        Lembre-se de que suas informações de localização são tratadas 
+        com o máximo cuidado e nunca são compartilhadas sem sua permissão.
+      </p><br />
+      <div>
+
+        <input type="checkbox" name="termos" id="check-termos" value="Li e concordo com os termos">
+        <label for="termos">Li e concordo com os termos</label><br>
+        
+      </div>
+  </div>
+
+</div>
+
+
+<!-- Modal para pedir permissão -->
+<div id="modal">
+  <p>Este site gostaria de acessar sua localização. Permitir?</p>
+  <button id="allowButton">Permitir</button>
+  <button id="denyButton">Negar</button>
+</div>
+
+<footer>
+  <h5>Todos os direitos reservados &copy; 2024</h5>
+</footer>
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
