@@ -55,7 +55,10 @@ function showPermissionModal() {
         // Fechar o modal e solicitar permissão de localização
         modal.style.display = 'none';
         navigator.geolocation.getCurrentPosition(
-            () => alert('Permissão concedida!'),
+             () => {
+                alert('Permissão concedida!');
+                location.reload();
+            },
             () => {
                 alert('Falha ao obter localização. O usuário pode ter negado a permissão.');
                 location.reload();
