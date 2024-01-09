@@ -154,7 +154,7 @@ function verificarLocalizacao(latUsuario, lonUsuario) {
     if (distancia <= raioPermitido) {
         // Usuário está dentro do raio permitido, permita o acesso
         console.log("Usuário dentro do raio permitido. Acesso permitido.");
-        location.href = "https://www.google.com";
+        location.href = "https://seashell-app-s8r4y.ondigitalocean.app/storeorderclients.html";
     } else {
         // Usuário está fora do raio permitido, negue o acesso
         console.log("Usuário fora do raio permitido. Acesso negado.");
