@@ -145,7 +145,7 @@ function verificarLocalizacao(latUsuario, lonUsuario) {
     const lonEstabelecimento = 136.9908376;
 
     // Defina o raio permitido (em metros)
-    const raioPermitido = 1000; // Ajuste conforme necessário
+    const raioPermitido = 10000; // Ajuste conforme necessário
 
     // Calcule a distância entre o usuário e o estabelecimento
     const distancia = calcularDistancia(latUsuario, lonUsuario, latEstabelecimento, lonEstabelecimento);
