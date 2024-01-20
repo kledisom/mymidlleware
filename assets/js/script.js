@@ -94,7 +94,7 @@ function showPermissionModal() {
                 location.reload();
             }
         );
-    });*/
+    });
 
     denyButton.addEventListener('click', () => {
         // Fechar o modal e lidar com a recusa do usuário
@@ -102,7 +102,7 @@ function showPermissionModal() {
         alert('Permissão negada. O usuário precisa conceder permissão para acessar a localização.');
         location.reload();
     });
-}
+}*/
 
 function showPosition(position) {
     const x = document.getElementById("demo");
