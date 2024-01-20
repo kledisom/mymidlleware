@@ -74,7 +74,7 @@ function showPermissionModal() {
     });
 }
 
-function showPermissionModal() {
+/*function showPermissionModal() {
     const modal = document.getElementById('modal');
     const allowButton = document.getElementById('allowButton');
     const denyButton = document.getElementById('denyButton');
@@ -94,7 +94,7 @@ function showPermissionModal() {
                 location.reload();
             }
         );
-    });
+    });*/
 
     denyButton.addEventListener('click', () => {
         // Fechar o modal e lidar com a recusa do usuário
